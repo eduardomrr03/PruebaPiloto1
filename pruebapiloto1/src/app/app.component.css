@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-- BARRA DE NAVEGACIÓN --*/
+.navbar {
+    background-color: #28a745;
+}
+
+.logo-image {
+    width: 50%;
+    height: auto;
+}
+
+.navbar-nav .nav-link i {
+    color: white;
+}
+
+#iconosNavbar {
+    margin-left: 4rem;
+}
+
+
+/* Breakpoint - Responsive - Tamaño de Pantalla 991px */
+@media (max-width: 991px) {
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    .logo-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 50%;
+        height: auto;
+    }
+
+    .navbar-collapse {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    #iconosNavbar {
+        margin-left: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        flex-basis: 30%;
+        text-align: center;
+    }
+}
+
+/*-- SECCIÓN LIBROS --*/
+.seccionLibros {
+    padding: 20px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(223, 250, 227);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card-textp {
+    font-weight: bolder;
+    color: #10501f;
+}
+
+
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+/*-- FOOTER --*/
+footer {
+    background-color: #28a745;
+}
+
+.footer-logo {
+    width: 220px;
+    height: auto;
+}
